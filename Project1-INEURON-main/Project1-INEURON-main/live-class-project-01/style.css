@@ -1,0 +1,168 @@
+*{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.navbar-container{
+    box-sizing: border-box;
+    padding:30px 0px;
+    display: flex;
+    justify-content: space-between;
+}  
+.navbar-container img{
+    display: flex;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+.navbar-container li{
+    display: flex;
+    display: inline;
+    justify-content:space-between;
+    align-items: flex-end;
+    font-family: Orbitron;
+    font: weight 10px;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+
+.navbar-container li:hover {
+    text-decoration: underline;
+    
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-button{
+    border-radius: 12px;
+    padding: 5px 27px;
+    font-family: poppins;
+    font-size: medium;
+    color:#808080;
+    transition: all 0.3s ease 0s;
+}
+.nav-button:hover{
+    background-color: gray;
+    color: #000;
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex-direction:column;
+   
+}
+
+.square{
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 70px;
+    padding-top: 150px;
+    padding-bottom: 10%;
+    z-index: -1;
+}
+.globe{
+    position: absolute;
+    left:750px;
+    bottom:450px
+}
+.star{
+    position: absolute;
+    left:1250px;
+    bottom: 400px;
+}
+.hero-img{
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: poppins;
+    text-align: justify;
+    position: absolute;
+    left: 600px;
+    bottom: 100px;
+    top: 100px;
+    
+}
+.hero-heading{
+    font-family: orbitron;
+    font-size: 50px;
+}
+
+.hero-description{
+     text-align: justify;
+}
+
+.local {
+    animation-name: colorChange;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.button-email{
+    cursor: pointer;
+    font-family: orbitron;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 20px;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+    top:90px;
+}
+
+.button-join{
+    cursor: pointer;
+    font-family: orbitron;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0 10px;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+    top:90px;
+    right:100px;
+    background-color: #000;
+    color: #fff;
+}
+.button-email:hover{
+    background-color: #000;
+    color: #fff;
+}
+.button-join:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    position: relative;
+    top: 200px;
+    right: 300px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    right: 300px;
+
+}
+
+
